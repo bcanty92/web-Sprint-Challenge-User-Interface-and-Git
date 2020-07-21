@@ -70,7 +70,69 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+  
+header {
+    padding: 15px 10px;
+    margin:15px;
+    
+  }
+  header nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav a {
+    color: #2A363B;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;}
+  
+button{
+    background-color:white;
+    color: black;
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
 
+#skills h2 {
+    text-align: center;
+  }
+  .skillsCont {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .skillsCont div {
+    width: 25%;
+    text-align: center;
+    border-bottom:  1px dashed black;
+  }
+  #extra h2 {
+    text-align: center;
+  }
+  .extraCont {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .extraCont div {
+    width: 25%;
+    text-align: center;
+    border-bottom:  1px dashed black;
+  }
+  img{
+
+  display:flex;
+    flex-direction:column;
+  align-items:center;
+  max-width: 250;
+   max-height :25%;
+  
+    display: block; 
+  }
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +166,46 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
-    margin: 20px 2.5%;
+     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.one{
+    background-color: teal;
+}
+.two{
+    background-color: gold;
+}
+.three{
+    background-color: cadetblue;
+}
+.four{
+    background-color: coral;
+}
+.five{
+    background-color: crimson;
+    
+}
+.six{
+    background-color: forestgreen;
+}
+.seven{
+    background-color: darkorchid;
+}
+.eight{
+    background-color: hotpink;
+}
+.nine{
+    background-color: indigo;
+}
+.ten{
+    background-color: dodgerblue;
+}
+.main-content {
+    display: flex;
+    flex-wrap: wrap;}
 
 .bottom-content {
     display: flex;
